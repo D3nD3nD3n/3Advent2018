@@ -13,7 +13,7 @@ namespace _3Advent2018
             string line;
             List<int> uniqueClaims = new List<int>();
 
-            System.IO.StreamReader file = new System.IO.StreamReader(@"C:\Users\Den\Source\Repos\3Advent2018\3Advent2018\Input.txt");
+            System.IO.StreamReader file = new System.IO.StreamReader(@"Input.txt");
             while ((line = file.ReadLine()) != null)
             {
                 FlipClaim(GetClaim(line), grid, uniqueClaims);

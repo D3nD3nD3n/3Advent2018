@@ -6,4 +6,10 @@
     <RootNamespace>_3Advent2018</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Update="Input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
